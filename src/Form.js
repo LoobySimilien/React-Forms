@@ -12,7 +12,13 @@ class Form extends Component {
 
   render(){
     return(
-      
+      <form >
+        <label htmlFor="name"> 
+          Name:
+          <input type = 'text' placeholder="input name" />
+        </label>
+        <input type= 'submit' />
+      </form>
     )
   }
 }
